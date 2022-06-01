@@ -30,14 +30,14 @@ jobs:
       - name: Install dependencies
         run: |
          make install
+
+      - name: Format with black
+        run: |
+          make format
         
       - name: Lint with pylint
         run: |
           make lint
-        
-      - name: Format with black
-        run: |
-          make format
 
       - name: Run tests
         run: |
