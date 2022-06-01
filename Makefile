@@ -13,4 +13,7 @@ lint:
 test:
 	python -m pytest -vv --cov=devopslib test_*.py
 
+all:
+	install lint format test
+
 		
