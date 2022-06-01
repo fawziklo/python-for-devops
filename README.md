@@ -10,3 +10,6 @@ From Zero Repository for doing python devops
 * Dockerfile
 * command-line-tool
 * Microservice
+
+1. Create a virtualenv: `virtualenv ~/.venv`
+2. edit `~/.venv/bin/activate`
