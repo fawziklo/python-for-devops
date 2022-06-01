@@ -13,4 +13,4 @@ From Zero Repository for doing python devops
 
 1. Create a virtualenv: `virtualenv ~/.venv`
 2. edit `~/.bashrc` add `source ~/.venv/bin/activate`
-3. clone project then run 'make all'
+3. clone project then run `make all`
