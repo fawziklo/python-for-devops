@@ -38,3 +38,7 @@ jobs:
       - name: Format with black
         run: |
           make format
+
+      - name: Run tests
+        run: |
+          make test
