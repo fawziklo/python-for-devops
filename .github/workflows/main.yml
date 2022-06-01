@@ -23,10 +23,13 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Install dependencies
-        run: make install
+        run: |
+         make install
         
       - name: Lint with pylint
-        run: make lint
+        run: |
+          make lint
         
       - name: Format with black
-        run: make format
+        run: |
+          make format
