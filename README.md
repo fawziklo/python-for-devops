@@ -12,4 +12,5 @@ From Zero Repository for doing python devops
 * Microservice
 
 1. Create a virtualenv: `virtualenv ~/.venv`
-2. edit `~/.venv/bin/activate`
+2. edit `~/.bashrc` add `source ~/.venv/bin/activate`
+3. clone project then run 'make all'
