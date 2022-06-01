@@ -14,3 +14,5 @@ From Zero Repository for doing python devops
 1. Create a virtualenv: `virtualenv ~/.venv`
 2. edit `~/.bashrc` add `source ~/.venv/bin/activate`
 3. clone project then run `make all`
+
+To enable Make on windows we should install GnuWin32 : https://www.technewstoday.com/install-and-use-make-in-windows/
