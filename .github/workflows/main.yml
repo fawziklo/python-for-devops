@@ -25,11 +25,7 @@ jobs:
         with:
           python-version: ${{matrix.python-version}}
 
-      # Runs a single command using the runners shell
-      - name: Install dependencies
-        run: |
-         make install
-        
+      # Runs a single command using the runners shell 
       - name: Lint with pylint
         run: |
           make lint
