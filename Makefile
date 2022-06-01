@@ -8,10 +8,9 @@ format:
 
 
 lint:
-	pylint --disable=R,C *.py
+	pylint	--disable=R,C	*.py
 
 test:
 	python -m pytest -vv --cov=devopslib test_*.py
 
-all:
-	install lint format test
+all:	install lint format test
