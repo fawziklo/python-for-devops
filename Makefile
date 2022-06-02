@@ -1,4 +1,3 @@
-
 install:
 	pip install --upgrade pip
 	pip install -r requirements.txt
@@ -6,6 +5,8 @@ install:
 format:
 	black devopslib tests
 
+clean:
+	rmdir /s /q venv
 
 lint:
 	pylint	--disable=R,C	devopslib tests
@@ -13,4 +14,4 @@ lint:
 test:
 	python -m pytest -v tests --cov=devopslib
 
-all:	install format lint test
+all:	install lint format	test
